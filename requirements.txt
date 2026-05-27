@@ -1,0 +1,11 @@
+langchain
+langgraph
+langchain-groq
+groq
+python-dotenv
+sounddevice
+scipy
+pillow
+ipywidgets
+jupyter
+notebook
