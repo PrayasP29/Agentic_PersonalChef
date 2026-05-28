@@ -103,7 +103,7 @@ This project is structured as a **rapid AI experimentation environment** — a d
 
 | Layer | Technology |
 |---|---|
-| Language | Python 3.11+ |
+| Language | Python 3.13+ |
 | Experimentation Environment | Jupyter Notebook |
 | LLM Orchestration | LangChain, LangGraph |
 | LLM Inference | Groq (LPU-accelerated) |
