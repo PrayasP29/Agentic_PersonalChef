@@ -31,7 +31,6 @@ if LANGSMITH_API_KEY:
 DEFAULT_TEXT_MODEL = os.getenv(
     "MODEL_NAME",
     "llama-3.1-8b-instant",
-    temperature=0.8
 )
 
 DEFAULT_MULTIMODAL_MODEL = os.getenv(
