@@ -209,7 +209,7 @@ Run the audio recording cell to capture 5 seconds of microphone input. The syste
 
 ---
 
-## Current Development Status
+## Status
 
 This project is in **active prototype development**. The core agentic pipeline is functional and has been tested end-to-end across all three input modalities. Current focus areas include:
 
@@ -219,34 +219,6 @@ This project is in **active prototype development**. The core agentic pipeline i
 - Building out the `audio_testing.ipynb` notebook with a full Whisper evaluation suite
 
 The notebook-based architecture is the deliberate foundation for this phase — it enables rapid hypothesis testing across model configurations, prompt strategies, and input preprocessing approaches before committing to a deployment structure.
-
----
-
-## Roadmap
-
-**Near-term**
-
-- [ ] Structured dietary preference input (allergies, macro targets, cuisine preferences)
-- [ ] Multi-turn memory persistence across notebook sessions
-- [ ] Expanded Whisper pipeline with noise filtering and multi-language support
-- [ ] Improved ingredient detection via structured output parsing from the vision model
-
-**Medium-term**
-
-- [ ] Nutrition tracking and daily meal planning agent
-- [ ] Grocery list generation based on recipe suggestions and current inventory gaps
-- [ ] Caching layer for repeated ingredient queries
-- [ ] Environment standardization with Docker and pinned dependency versions
-- [ ] Test coverage for utility functions and agent tool behavior
-
-**Long-term**
-
-- [ ] FastAPI or Streamlit interface for browser-based interaction
-- [ ] Persistent user profiles with preference learning over time
-- [ ] Multi-agent orchestration: separate agents for inventory, planning, and shopping
-- [ ] Real-time personalization via a production memory store (e.g., Mem0, Zep)
-- [ ] Mobile interface with native camera and microphone access
-- [ ] Deployment pipeline to cloud infrastructure with observability stack
 
 ---
 
@@ -272,17 +244,12 @@ Contributions, experiments, and feedback are welcome. If you're exploring simila
 For significant changes, open an issue first to discuss the approach.
 
 ---
-
-## License
-
-MIT License. See `LICENSE` for details.
-
 ---
 
 ## Author
 
 **Prayas**
-AI & Software Developer
+
 
 Building at the intersection of agentic systems, multimodal AI, and practical product engineering.
 
